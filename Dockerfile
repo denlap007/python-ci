@@ -8,4 +8,4 @@ rm -r /root/.cache
 
 COPY test.py /app/test.py
 
-CMD ["python", "/app/test.py"]
+CMD ["python3", "/app/test.py"]
